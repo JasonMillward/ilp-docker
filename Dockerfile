@@ -1,5 +1,5 @@
 FROM composer
-
+ENTRYPOINT ["/bin/bash"]
 
 RUN wget http://cs.sensiolabs.org/download/php-cs-fixer-v2.phar -O php-cs-fixer
 RUN chmod +x php-cs-fixer
